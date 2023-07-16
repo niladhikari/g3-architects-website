@@ -1,3 +1,28 @@
-h1{
-    background-color: aquamarine;
+/* primary section style */
+
+*{
+    font-family: Work Sans;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* header style */
+
+
+/* nav section style */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+.nav-items{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-items .item{
+    
 }
