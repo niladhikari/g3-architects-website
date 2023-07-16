@@ -275,8 +275,7 @@ p {
     display: grid;
   }
   .sponspors p{
-    text-align: left;
-    margin: 0px;
+    width: 442px;
   }
 }
 
