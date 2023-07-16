@@ -23,6 +23,9 @@
   padding-top: 24px;
   padding-bottom: 32px;
 }
+section{
+  margin-bottom: 130px;
+}
 /* header style */
 header {
   background-color: rgba(255, 144, 14, 0.1);
@@ -63,8 +66,7 @@ ul a {
   text-align: center;
   margin-top: 102px;
   margin-bottom: 50px;
-  /* text-align: center;
-  padding: 102px 300px 50px 300px; */
+  padding: 102px 300px 50px 300px;
 }
 .banner-tital {
   color: #131313;
@@ -81,16 +83,18 @@ ul a {
 }
 
 /* main section style */
-.main{
-  color: #FFFFFF;
+.main {
+  color: #ffffff;
+  max-width: 1440;
+  margin: 0 auto;
 }
 /* Quick list of Our Features section style */
 .team-container {
   margin-top: 85px;
-  padding: 60px 280px;
+  padding: 0px 280px;
   gap: 70px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .team-img-container {
@@ -105,20 +109,49 @@ ul a {
 
 .team-tital {
   max-width: 468px;
-  color:#727272;
+  color: #727272;
   font-size: 45px;
   font-weight: 500;
 }
-.team-discription{
+.team-discription {
   width: 537px;
-  padding-top: 24px ;
+  padding-top: 24px;
 }
-.of-Our{
+.of-Our {
   color: #131313;
 }
-.Features{
+.Features {
   color: #ff900e;
 }
+
+/* Features you will love & enjoy section style */
+.features {
+  display: flex;
+  padding: 0px 240px;
+  gap: 80px;
+  /* align-items: center;  */
+}
+.features-tital {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.card-tital {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 600;
+}
+.card-dispription{
+  padding-top: 10px;
+}
+
+.features img{
+  width: 100%;
+}
+
+
+
 
 
 
@@ -148,9 +181,6 @@ ul a {
   }
 }
 
-
-
-
 /* tablet or medium devies */
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -164,7 +194,7 @@ ul a {
 
   /* team reponsive */
   .team-container {
-    padding:20px;
+    padding: 20px;
     flex-direction: column-reverse;
   }
   .team-img-container {
@@ -185,7 +215,7 @@ ul a {
 
   /* team reponsive */
   .team-container {
-    padding:80px;
+    padding: 80px;
     flex-direction: column-reverse;
   }
   .team-img-container {
@@ -202,13 +232,13 @@ ul a {
     gap: 60px;
   }
 
-    /* team reponsive */
-    .team-container {
-      padding: 60px 260px;
-      flex-direction: column-reverse;
-    }
-    .team-img-container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
+  /* team reponsive */
+  .team-container {
+    padding: 60px 260px;
+    flex-direction: column-reverse;
+  }
+  .team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
